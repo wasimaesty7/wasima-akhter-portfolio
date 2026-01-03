@@ -1,0 +1,82 @@
+﻿/* Custom refinements on top of Tailwind */
+ 
+
+
+/* ===== Global ===== */
+html {
+  scroll-behavior: smooth;
+}
+
+
+body {
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont;
+  background-color: #f8fafc; /* slate-50 */
+  color: #1f2937; /* gray-800 */
+}
+
+
+/* ===== Section Title ===== */
+.section-title {
+  @apply text-2xl font-semibold mb-6;
+  color: #0f172a; /* slate-900 */
+}
+
+
+/* ===== Cards ===== */
+.card {
+  background-color: #ffffff;
+  border: 1px solid #e2e8f0; /* slate-200 */
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+  transition: all 0.25s ease;
+}
+
+
+.card:hover {
+  border-color: #3b82f6; /* blue-500 */
+  box-shadow: 0 10px 20px rgba(15, 23, 42, 0.08);
+}
+
+
+/* ===== Skill Badges ===== */
+.badge {
+  display: inline-block;
+  font-size: 0.75rem;
+  background-color: #eff6ff; /* blue-50 */
+  color: #1d4ed8; /* blue-700 */
+  padding: 0.3rem 0.7rem;
+  border-radius: 999px;
+  margin-right: 0.4rem;
+  margin-bottom: 0.4rem;
+}
+
+
+/* ===== Links ===== */
+.link {
+  color: #2563eb; /* blue-600 */
+  font-weight: 500;
+}
+
+
+.link:hover {
+  text-decoration: underline;
+}
+
+
+/* ===== Project Links ===== */
+.project-link {
+  font-size: 0.875rem;
+  color: #2563eb;
+  margin-right: 1rem;
+}
+
+
+.project-link:hover {
+  text-decoration: underline;
+}
+
+
+/* ===== Footer ===== */
+footer {
+  color: #64748b; /* slate-500 */
+}
